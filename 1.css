@@ -1,0 +1,60 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.content-section{
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.content-section h1 { color: #9C9C9C; font-weight: 400; font-size: 30px; display: inline-block; }
+
+/*--NAV--*/
+.navbar navbar-default navbar-fixed-top{
+  height: 100px;
+}
+/*--HOME--*/
+#home {
+  padding-bottom: 250px;
+  margin:0 auto;
+  background: url('https://s17.postimg.org/m4bfqfgn3/fog_1005445_1920.jpg') no-repeat center center fixed;
+  background-size: cover; text-shadow: 1px 1px 0 rgba(255,255,255,0.5); text-align: center;
+}
+#home h1{
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  margin-top: 50px;
+  font-size: 5em;
+}
+
+/*--ABOUT--*/
+
+#about .left{
+  float: left;
+  width: 110px;
+  height: 25px;
+  margin: 0;
+  padding: 0;
+}
+#about .right{
+  hight: 25px;
+}
+
+#about h4{
+  font-weight: 2em;
+}
+
+/*--PORTFOLIO--*/
+#portfolio img{
+  width:360px;
+  height:215px;
+}
+
+
+/*--CONTACT--*/
+#contact {
+  background: url('https://s18.postimg.org/z7eckrogp/seagulls_984529_1920.jpg') no-repeat top center fixed;
+  background-size: cover;
+}
